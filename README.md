@@ -40,6 +40,6 @@ Aplikasi Laboratorium merupakan aplikasi yang berfungsi untuk mengelola dan meng
 - Data Antrian
 
 ## Tools
-- https://github.com/ColorlibHQ/gentelella
-- https://codeigniter.com/
-- https://tcpdf.org/
+- Template Website (https://github.com/ColorlibHQ/gentelella)
+- Framework PHP codeigniter V3 (https://codeigniter.com/)
+- PDF (https://tcpdf.org/)

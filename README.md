@@ -38,3 +38,8 @@ Aplikasi Laboratorium merupakan aplikasi yang berfungsi untuk mengelola dan meng
 - Data Petugas
 - Data Pemeriksaan
 - Data Antrian
+
+## Tools
+- https://github.com/ColorlibHQ/gentelella
+- https://codeigniter.com/
+- https://tcpdf.org/

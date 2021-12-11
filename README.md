@@ -30,8 +30,8 @@ Aplikasi Laboratorium merupakan aplikasi yang berfungsi untuk mengelola dan meng
 - dll
 
 ## Data Aplikasi Laboratorium
--Data Pasien
--Data Dokter
--Data Petugas
--Data Pemeriksaan
--Data Antrian
+- Data Pasien
+- Data Dokter
+- Data Petugas
+- Data Pemeriksaan
+- Data Antrian

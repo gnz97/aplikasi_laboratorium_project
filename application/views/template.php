@@ -39,7 +39,7 @@
                                     </div>
                                     <div class="x_content">
                                     <div class="row">
-                                        <div class="animated flipInY col-lg-4 col-md-3 col-sm-6  ">
+                                        <div class="animated flipInY col-lg-3 col-md-3 col-sm-6  ">
                                             <?php if($this->fungsi->petugas_login()->petugasLevel == 1 ||$this->fungsi->petugas_login()->petugasLevel == 2 || $this->fungsi->petugas_login()->petugasLevel == 3 || $this->fungsi->petugas_login()->petugasLevel == 4){?>
                                             <a href="<?=base_url('Pemeriksaan')?>">
                                             <?php } ?>
@@ -55,7 +55,7 @@
                                             </a>
                                             <?php } ?>
                                         </div>
-                                        <div class="animated flipInY col-lg-4 col-md-3 col-sm-6  ">
+                                        <div class="animated flipInY col-lg-3 col-md-3 col-sm-6  ">
                                             <?php if($this->fungsi->petugas_login()->petugasLevel == 1){?>
                                             <a href="<?=base_url('admin/BidangPemeriksaan')?>">
                                             <?php } ?>
@@ -71,7 +71,7 @@
                                             </a>
                                         <?php } ?>
                                         </div>
-                                        <div class="animated flipInY col-lg-4 col-md-3 col-sm-6  ">
+                                        <div class="animated flipInY col-lg-3 col-md-3 col-sm-6  ">
                                             <?php if($this->fungsi->petugas_login()->petugasLevel == 1){?>
                                             <a href="<?=base_url('admin/ParamPemeriksaan')?>">
                                             <?php } ?>
@@ -87,7 +87,7 @@
                                             </a>
                                         <?php } ?>
                                         </div>
-                                        <div class="animated flipInY col-lg-4 col-md-3 col-sm-6  ">
+                                        <div class="animated flipInY col-lg-3 col-md-3 col-sm-6  ">
                                             <?php if($this->fungsi->petugas_login()->petugasLevel == 1 || $this->fungsi->petugas_login()->petugasLevel == 2){?>
                                             <a href="<?=base_url('Pasien')?>">
                                             <?php } ?>

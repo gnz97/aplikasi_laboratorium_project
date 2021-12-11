@@ -31,7 +31,7 @@ class Pendaftaran extends CI_Controller {
 
 	public function dataPasien(){
 		$paket['paket'] = $this->Pasien_m->getGetAll()->result();
-		$var_dump($paket);
+		// $var_dump($paket);
 	}
 
 	public function getPendaftaranDataPasien(){

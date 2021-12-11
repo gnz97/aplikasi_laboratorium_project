@@ -3,9 +3,22 @@
 <html lang="en">
   <head>
   <?php $this->load->view('_partials/head.php');?>
+  <style>
+      .image-background {
+  height: 90vh;
+  /* min-height: 500px; */
+  background-image: url("<?= base_url('assets/images/bg_antrain3.jpg')?>");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+  </style>
   </head>
 
-  <body class="bg-light">
+  <body class="bg-light image-background">
+      <!-- <div >
+          <img class="bg-antrian" src="<?= base_url('assets/images/medical-1.jpg')?>" alt="">
+      </div> -->
     <div class="mt-5" >
       <div class="mt-5">
       
@@ -13,7 +26,7 @@
         <!-- page content -->
         <form  id="formAdd" data-parsley-validate="" class=" mt-5 form-horizontal form-label-left d-flex justify-content-center" novalidate="" >			
             <div class="" >
-                            <div class="card text-white  bg-primary mb-4" style="max-width: 18rem; text-align:center">
+                            <div class="card text-white  bg-primary mb-4" style="max-width: 38rem; text-align:center">
                                 <div class="card-header">Ambil Antrian</div>
                                 <div class="card-body ">
                                     <!-- <h1 class="card-title d-flex justify-content-center" style="font-size: 50px;">A001</h1> -->
